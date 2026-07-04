@@ -3,9 +3,9 @@ title = 语音计算器
 package.name = voicecalc
 package.domain = org.test
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,kv,atlas,ttf,ttc,otf
 version = 1.0
-requirements = python3,kivy
+requirements = python3,kivy,android
 orientation = portrait
 fullscreen = 0
 android.archs = arm64-v8a
@@ -14,7 +14,7 @@ android.archs = arm64-v8a
 log_level = 2
 
 [android]
-permissions = INTERNET
+permissions = INTERNET,RECORD_AUDIO
 android.api = 33
 minapi = 21
 android.private_storage = True
