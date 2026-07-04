@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-"语音计算器 - Android版
-支持中文显示和原生语音识别"
+"""语音计算器 - Android版
+支持中文显示和原生语音识别"""
 
 import os
 import re
